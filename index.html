@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+    <title>Vanessa Cheng | Meme Generator</title>
+</head>
+<body>
+    <!-- Top Half of the Screen -->
+    <section>
+        <div class="banner">
+            <h1>MEME GENERATOR</h1>
+        </div>
+
+        <div>
+            <form id="meme-form">
+                <table>
+                    <tr>
+                        <td class="left"><label for="image-url" class="form-label">IMAGE URL:</label></td>
+                        <td><input id="image-url" type="url" placeholder="LINK TO IMAGE" class="form-innertext" required></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="top-text" class="form-label">TOP TEXT:</label></td>
+                        <td><input id="top-text" type="text" placeholder="TEXT TO ADD TO THE TOP" class="form-innertext"></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><label for="bottom-text" class="form-label">BOTTOM TEXT:</label></td>
+                        <td><input id="bottom-text" type="text" placeholder="TEXT TO ADD TO THE BOTTOM" class="form-innertext"></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><button type="submit" id="form-button">GENERATE</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+
+    </section>
+
+    <!-- Bottom Half with Completed Memes -->
+    <section id="completed-memes-section">
+        <div class="banner-meme-gallery">
+            <h2>MEME GALLERY</h2>
+        </div>
+
+        <ul>
+            
+        </ul>
+        
+    </section>
+</body>
+
+<script src="script.js"></script>
+</html>
